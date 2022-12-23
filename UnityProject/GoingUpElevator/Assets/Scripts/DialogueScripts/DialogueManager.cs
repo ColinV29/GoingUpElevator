@@ -8,14 +8,18 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+    public Image speakerPortrait;
+    public AudioSource textSound;
 
     public Queue<string> sentences;
     public Queue<string> names;
+    public Queue<Sprite> sprites;
 
     void Start()
     {
         sentences = new Queue<string>();
         names = new Queue<string>();
+        sprites = new Queue<Sprite>();
         gameObject.SetActive(false);
     }
 
@@ -29,6 +33,9 @@ public class DialogueManager : MonoBehaviour
         foreach (string name in dialogue.names) {
             names.Enqueue(name);
         }
+        foreach (Sprite sprite in dialogue.portraits) {
+            sprites.Enqueue(sprite);
+        }
 
         DisplayNextSentence();
     }
@@ -40,6 +47,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         nameText.text = names.Dequeue();
+        speakerPortrait.sprite = sprites.Dequeue();
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
@@ -49,6 +57,10 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
             dialogueText.text += letter;
+
+            if (letter != ' ') {
+                textSound.Play();
+            }
             yield return null;
         }
     }

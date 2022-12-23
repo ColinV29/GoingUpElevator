@@ -32,6 +32,7 @@ public class MakeItOpenButton : MonoBehaviour
     public UnityEvent pass7OutBot = new UnityEvent();
     public UnityEvent pass8OutBot = new UnityEvent();
     public GameObject Openbutton;
+    public Shake camera;
     public progression progression;
     // Start is called before the first frame update
     void Start()

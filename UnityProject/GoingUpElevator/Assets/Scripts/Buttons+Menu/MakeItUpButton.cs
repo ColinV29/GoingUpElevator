@@ -17,6 +17,7 @@ public class MakeItUpButton : MonoBehaviour
 
 
     public GameObject Upbutton;
+    public Shake camera;
     public progression progression;
     // Start is called before the first frame update
     void Start()
@@ -67,12 +68,13 @@ public class MakeItUpButton : MonoBehaviour
             }
             progression.advancePhase();
             progression.StartCoroutine(progression.GoingUp());
+            camera.StartCoroutine(camera.Shaking(7));
         }
         else if (progression.currentPhase == progression.gameState.Return && progression.currentPosition == progression.position.bottom) {
             progression.advancePhase();
             progression.advancePass();
             progression.StartCoroutine(progression.GoingUp());
-            
+            camera.StartCoroutine(camera.Shaking(7));            
         }
     return;
     }

@@ -14,6 +14,7 @@ public class MakeItDownButton : MonoBehaviour
     public UnityEvent pass7Down = new UnityEvent();
     public UnityEvent pass8Down = new UnityEvent();
     public GameObject Downbutton;
+    public Shake camera;
     public progression progression;
     // Start is called before the first frame update
     void Start()
@@ -64,11 +65,13 @@ public class MakeItDownButton : MonoBehaviour
             }
             progression.advancePhase();
             progression.StartCoroutine(progression.GoingDown());
+            camera.StartCoroutine(camera.Shaking(7));
         }
         else if (progression.currentPhase == progression.gameState.Return && progression.currentPosition == progression.position.top) {
             progression.advancePhase();
             progression.advancePass();
             progression.StartCoroutine(progression.GoingDown());
+            camera.StartCoroutine(camera.Shaking(7));
         }
     return;
     }

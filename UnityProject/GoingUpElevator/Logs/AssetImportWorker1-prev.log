@@ -15,7 +15,7 @@ D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64188
+49384
 Successfully changed project path to: D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
 D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30332] Host "[IP] 192.168.1.221 [Port] 0 [Flags] 2 [Guid] 3476118584 [EditorId] 3476118584 [Version] 1048832 [Id] WindowsEditor(7,Matts-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18844] Host "[IP] 192.168.1.221 [Port] 0 [Flags] 2 [Guid] 2494224958 [EditorId] 2494224958 [Version] 1048832 [Id] WindowsEditor(7,Matts-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [30332] Host "[IP] 192.168.1.221 [Port] 0 [Flags] 2 [Guid] 3476118584 [EditorId] 3476118584 [Version] 1048832 [Id] WindowsEditor(7,Matts-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18844] Host "[IP] 192.168.1.221 [Port] 0 [Flags] 2 [Guid] 2494224958 [EditorId] 2494224958 [Version] 1048832 [Id] WindowsEditor(7,Matts-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 63.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002910 seconds.
+Registered in 0.003196 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.533 seconds
+- Completed reload, in  0.575 seconds
 Domain Reload Profiling:
-	ReloadAssembly (534ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (575ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (393ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (237ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003023 seconds.
+Registered in 0.003282 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  0.873 seconds
 Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (657ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (293ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (307ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (56.2 KB). Loaded Objects now: 3836.
-Memory consumption went from 118.8 MB to 118.8 MB.
-Total: 2.602400 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.226100 ms MarkObjects: 2.043600 ms  DeleteObjects: 0.096200 ms)
+Unloading 3394 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.3 KB). Loaded Objects now: 3855.
+Memory consumption went from 119.9 MB to 119.8 MB.
+Total: 2.791700 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.301000 ms MarkObjects: 2.151100 ms  DeleteObjects: 0.075200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,41 +163,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 164336.867539 seconds.
-  path: Assets/Assets/3D
-  artifactKey: Guid(a59079b44f3d51745a55e0a508ef5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D using Guid(a59079b44f3d51745a55e0a508ef5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b2708a12363395282a170a93de5d0e') in 0.008207 seconds 
+  Time since last request: 12158.018916 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe29f72b7d4089957b284df29ff0161') in 0.192440 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 156.459033 seconds.
-  path: Assets/Assets/3D/Models/Open_door_button.fbx
-  artifactKey: Guid(1fa9278b7d341d54d9263efd5a5ebf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Models/Open_door_button.fbx using Guid(1fa9278b7d341d54d9263efd5a5ebf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a025b41a3f30cee38d26767716ce877b') in 0.428141 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7d4fb9511bf5d6cdf15bfb11b32b25') in 0.026396 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/3D/Models/Up_downbutton.fbx
-  artifactKey: Guid(89732ef320e726d489688c55bf26a07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Models/Up_downbutton.fbx using Guid(89732ef320e726d489688c55bf26a07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce469911b518e89c4b60b6bded5e06d3') in 0.030109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Assets/3D/Models/Railings.fbx
-  artifactKey: Guid(7466518d19319914a8470aa7292f0486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Models/Railings.fbx using Guid(7466518d19319914a8470aa7292f0486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68da6b818ae7818794aca22e3f7f1356') in 0.037128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.308560 seconds.
-  path: Assets/Assets/3D/Railings.fbx
-  artifactKey: Guid(ddc84137b04a8ad4a88707c09a35b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Railings.fbx using Guid(ddc84137b04a8ad4a88707c09a35b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266bcee1829923457c01991a3183495a') in 0.042882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/3D/Up_button.fbx
-  artifactKey: Guid(ba79d5a061fbdf749ac71d0934465fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Up_button.fbx using Guid(ba79d5a061fbdf749ac71d0934465fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545898012b8f89f0c29d56e4c6034041') in 0.020868 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002812 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3862.
+Memory consumption went from 118.4 MB to 118.3 MB.
+Total: 2.236200 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.116600 ms MarkObjects: 1.896400 ms  DeleteObjects: 0.020800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

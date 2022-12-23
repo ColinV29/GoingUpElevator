@@ -123,6 +123,276 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &66428910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 66428911}
+  - component: {fileID: 66428912}
+  m_Layer: 0
+  m_Name: Pass5OutBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &66428911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66428910}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &66428912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66428910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Keep up the good work sir.
+    names:
+    - Fancy-Looking Woman
+  manager: {fileID: 963962570}
+--- !u!1 &137757396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 137757397}
+  - component: {fileID: 137757398}
+  m_Layer: 0
+  m_Name: Pass3OutBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &137757397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137757396}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064685545, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808706, y: -1.580871, z: -1.5808707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137757398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137757396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Maybe it wasn\u2019t all worth it after all."
+    names:
+    - Hard-Boiled Punk
+  manager: {fileID: 963962570}
+--- !u!1 &146375977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146375978}
+  - component: {fileID: 146375979}
+  m_Layer: 0
+  m_Name: Pass4OutBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &146375978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146375977}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &146375979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146375977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Upon the elevator doors opening, the gloomy teenager doesn\u2019t say a word. "
+    - Hanging their head low, they proceed to step through the doors and off the
+      elevator.
+    names:
+    - 
+    - 
+  manager: {fileID: 963962570}
+--- !u!1 &171067297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 171067298}
+  - component: {fileID: 171067299}
+  m_Layer: 0
+  m_Name: Pass1In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &171067298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171067297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &171067299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171067297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Going Up?
+    - Oh, I guess.
+    - "Truthfully I wasn\u2019t expecting to get this far."
+    - ...
+    - "Seems strange I know, but in a way I feel that I almost don\u2019t deserve
+      it."
+    - Living the same day, every day. Moments like this feel like such a breath of
+      fresh air.
+    - "Heh. Can\u2019t linger on that breath too long though. Eventually we\u2019ll
+      start to suffocate. "
+    names:
+    - Elevator Operator
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+  manager: {fileID: 963962570}
+--- !u!1 &181673050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181673051}
+  - component: {fileID: 181673052}
+  m_Layer: 0
+  m_Name: Pass4Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181673051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181673050}
+  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.05256794, y: -0.0003410588, z: -0.0016714855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181673052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181673050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - I probably deserve this.
+    - ...
+    names:
+    - Gloomy Teenager
+    - Gloomy Teenager
+  manager: {fileID: 963962570}
 --- !u!1 &205644862
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,6 +426,108 @@ Transform:
   m_Father: {fileID: 2131409616}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &209617821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 209617822}
+  - component: {fileID: 209617823}
+  m_Layer: 0
+  m_Name: Pass1OutBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209617822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209617821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &209617823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209617821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - ...
+    - 'I guess I deserve this. '
+    names:
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+  manager: {fileID: 963962570}
+--- !u!1 &275895094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 275895095}
+  - component: {fileID: 275895096}
+  m_Layer: 0
+  m_Name: Pass3Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &275895095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275895094}
+  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.05256794, y: -0.0003410588, z: -0.0016714855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &275895096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275895094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - I guess I will be going down then.
+    names:
+    - Hard-Boiled Punk
+  manager: {fileID: 963962570}
 --- !u!1 &355061281 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ac4458fe5ba35b9499f3e92932470eac, type: 3}
@@ -396,6 +768,106 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c48fb2d49b411d4aa1fa63d2f5bcb9a, type: 3}
   m_PrefabInstance: {fileID: 416887771}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &464985660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 464985661}
+  - component: {fileID: 464985662}
+  m_Layer: 0
+  m_Name: Pass6OutBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464985661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464985660}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464985662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464985660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - I wonder if it was something I said.
+    names:
+    - Wrinkly Old Man
+  manager: {fileID: 963962570}
+--- !u!1 &538788101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 538788102}
+  - component: {fileID: 538788103}
+  m_Layer: 0
+  m_Name: Pass3Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &538788102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538788101}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &538788103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538788101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - I guess I will be going up then. I figured as much.
+    names:
+    - Hard-Boiled Punk
+  manager: {fileID: 963962570}
 --- !u!1 &552509746
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +1208,328 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060db552e75ba2f4fa027e1cbc4cb8f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &614822086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 614822087}
+  - component: {fileID: 614822088}
+  m_Layer: 0
+  m_Name: Pass1OutTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &614822087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614822086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &614822088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614822086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Well this is where I get off.
+    - Thanks for the company.
+    names:
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+  manager: {fileID: 963962570}
+--- !u!1 &681338083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681338084}
+  - component: {fileID: 681338085}
+  m_Layer: 0
+  m_Name: Pass4Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &681338084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681338083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &681338085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681338083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - What?
+    - Why?
+    - "You didn\u2019t have to do that."
+    - They let out a little sniffle.
+    names:
+    - Gloomy Teenager
+    - Gloomy Teenager
+    - Gloomy Teenager
+    - 
+  manager: {fileID: 963962570}
+--- !u!1 &737444656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737444657}
+  - component: {fileID: 737444658}
+  m_Layer: 0
+  m_Name: Pass4In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737444657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737444656}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064672687, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808706, y: -1.5808709, z: -1.5808709}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &737444658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737444656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Going Down?
+    - When have I not been?
+    - They let out a deep sigh.
+    - "Look, can we just get this over with? I\u2019m tired."
+    - "Really\u2026 I\u2019m very\u2026 tired."
+    names:
+    - Elevator Operator
+    - Gloomy Teenager
+    - 
+    - Gloomy Teenager
+    - Gloomy Teenager
+  manager: {fileID: 963962570}
+--- !u!1 &740998663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 740998664}
+  - component: {fileID: 740998665}
+  m_Layer: 0
+  m_Name: Pass6Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &740998664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740998663}
+  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.05256794, y: -0.0003410588, z: -0.0016714855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740998665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740998663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Oh\u2026"
+    - ...
+    - If that is how it must be.
+    names:
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+  manager: {fileID: 963962570}
+--- !u!1 &754317617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754317618}
+  - component: {fileID: 754317619}
+  m_Layer: 0
+  m_Name: Pass5OutTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754317618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754317617}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754317619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754317617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Keep up the good work sir.
+    names:
+    - Fancy-Looking Woman
+  manager: {fileID: 963962570}
+--- !u!1 &763118221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 763118222}
+  - component: {fileID: 763118223}
+  m_Layer: 0
+  m_Name: Pass1Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &763118222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763118221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &763118223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763118221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Yeah\u2026 yeah this feels right."
+    - "Really thinking about it, I wouldn\u2019t have it any other way."
+    names:
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+  manager: {fileID: 963962570}
 --- !u!1 &811931743
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1766,442 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &848657028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848657032}
+  - component: {fileID: 848657031}
+  - component: {fileID: 848657030}
+  - component: {fileID: 848657029}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &848657029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848657028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &848657030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848657028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &848657031
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848657028}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &848657032
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848657028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 963962569}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &856163543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 856163544}
+  - component: {fileID: 856163545}
+  m_Layer: 0
+  m_Name: Pass2In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &856163544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856163543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &856163545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856163543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Going down?
+    - 'Going down? Is that what you think?
+
+'
+    - "Sir I\u2019m sorry to say but clearly you are mistaken. The only direction
+      I will be going is up."
+    - That is how it has always been, and that is how it will keep on being.
+    - Now let us not meander on here for too long now so I can move on to where I
+      must be going.
+    names:
+    - Elevator Operator
+    - Snobby Tycoon
+    - Snobby Tycoon
+    - Snobby Tycoon
+    - Snobby Tycoon
+  manager: {fileID: 963962570}
+--- !u!1 &926618607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926618608}
+  - component: {fileID: 926618609}
+  m_Layer: 0
+  m_Name: Pass3In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &926618608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926618607}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064685545, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808706, y: -1.580871, z: -1.5808707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &926618609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926618607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Going Up?
+    - "If I\u2019m going up, then I\u2019m going up."
+    - "If I\u2019m going down, then I\u2019m going down."
+    - No matter the result it makes no difference to me.
+    - "As long as I\u2019m going somewhere that is."
+    names:
+    - Elevator Operator
+    - Hard-Boiled Punk
+    - Hard-Boiled Punk
+    - Hard-Boiled Punk
+    - Hard-Boiled Punk
+  manager: {fileID: 963962570}
+--- !u!1 &962704007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962704008}
+  - component: {fileID: 962704009}
+  m_Layer: 0
+  m_Name: Pass6OutTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962704008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962704007}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &962704009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962704007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Once again, thank you.
+    names:
+    - Wrinkly Old Man
+  manager: {fileID: 963962570}
+--- !u!1001 &963962568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 848657032}
+    m_Modifications:
+    - target: {fileID: 7369068393811206210, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068393811206210, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068393811206210, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489192, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_Name
+      value: dialogueBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394275455886, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -115
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394275455886, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -32.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394275455886, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394275455887, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_text
+      value: aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394275455887, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394275455887, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369068394275455887, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+--- !u!224 &963962569 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7369068394109489193, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+  m_PrefabInstance: {fileID: 963962568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &963962570 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7369068394109489190, guid: 5925cb422a8acc6468c7521664ab32b8, type: 3}
+  m_PrefabInstance: {fileID: 963962568}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85954bd093b42649b0637e893baaf30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &988800226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c48fb2d49b411d4aa1fa63d2f5bcb9a, type: 3}
@@ -989,12 +2219,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b631d84113cb8b4998036b739d763bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DownEvent:
+  pass1Down:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 556080851}
-        m_TargetAssemblyTypeName: ButtonActions, Assembly-CSharp
-        m_MethodName: DownButtonMethod
+      - m_Target: {fileID: 1943747947}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1004,7 +2234,101 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  pass2Down:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2084380563}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass3Down:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 275895096}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass4Down:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 181673052}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass5Down:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1113471939}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass6Down:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 740998665}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass7Down:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2035103987}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass8Down:
+    m_PersistentCalls:
+      m_Calls: []
   Downbutton: {fileID: 0}
+  progression: {fileID: 992760046}
 --- !u!65 &988800230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1018,11 +2342,215 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999992, y: 0.019999994, z: 0.019999998}
   m_Center: {x: 0.000000007450581, y: 0.0000000349246, z: 0}
+--- !u!1 &992760045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 992760047}
+  - component: {fileID: 992760046}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &992760046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992760045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4f84798d01e084db3b4ff2b87cc64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPhase: 0
+  currentPosition: 1
+--- !u!4 &992760047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992760045}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.172699, y: -1.949776, z: -4.668197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &993843857 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ba79d5a061fbdf749ac71d0934465fab, type: 3}
   m_PrefabInstance: {fileID: 1504994711}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &995774237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995774238}
+  - component: {fileID: 995774239}
+  m_Layer: 0
+  m_Name: Pass7OutBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &995774238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995774237}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &995774239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995774237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - That was fun.
+    - Bye Bye.
+    names:
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+  manager: {fileID: 963962570}
+--- !u!1 &1113471937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1113471938}
+  - component: {fileID: 1113471939}
+  m_Layer: 0
+  m_Name: Pass5Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1113471938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113471937}
+  m_LocalRotation: {x: 0.000000029802326, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.05256794, y: -0.00034100798, z: -0.0016714855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1113471939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113471937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Ah well\u2026"
+    - Suppose this will do me fine.
+    names:
+    - Fancy-Looking Woman
+    - Fancy-Looking Woman
+  manager: {fileID: 963962570}
+--- !u!1 &1191649015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1191649016}
+  - component: {fileID: 1191649017}
+  m_Layer: 0
+  m_Name: Pass6Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1191649016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191649015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1191649017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191649015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Thank you. I appreciate your help.
+    - "It might be small, but this is something I\u2019d rather not do alone."
+    - "I\u2019m glad that you are here."
+    names:
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+  manager: {fileID: 963962570}
 --- !u!1 &1206987315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +2698,167 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3c96b8e1ee73854eb0425a4e2db01f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1217274450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217274451}
+  - component: {fileID: 1217274452}
+  m_Layer: 0
+  m_Name: Pass3OutTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1217274451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217274450}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064685545, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808706, y: -1.580871, z: -1.5808707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1217274452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217274450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - So in the end it was all worth it.
+    names:
+    - Hard-Boiled Punk
+  manager: {fileID: 963962570}
+--- !u!1 &1223071102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1223071103}
+  - component: {fileID: 1223071104}
+  m_Layer: 0
+  m_Name: Pass5Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1223071103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223071102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1223071104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223071102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Hope it\u2019s not too boring."
+    names:
+    - Fancy-Looking Woman
+  manager: {fileID: 963962570}
+--- !u!1 &1260458716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1260458717}
+  - component: {fileID: 1260458718}
+  m_Layer: 0
+  m_Name: Pass7Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1260458717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260458716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1260458718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260458716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - No.
+    - No, no, no, NO!
+    - I want to go down!
+    - I WANT TO GO DOWN!
+    - 'I WANT TO GO DOWN! I WANT TO GO DOWN! I WANT TO GO DOWN! I WANT TO GO DOWN!
+      I WANT TO GO DOWN! '
+    - WAAAAHAHAHAAAAAHH!
+    names:
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+  manager: {fileID: 963962570}
 --- !u!1 &1286967900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,6 +3088,58 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1327385269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1327385270}
+  - component: {fileID: 1327385271}
+  m_Layer: 0
+  m_Name: Pass5In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1327385270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327385269}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1327385271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327385269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Going Up?
+    - "Hope it\u2019s not too boring."
+    names:
+    - Elevator Operator
+    - Fancy-Looking Woman
+  manager: {fileID: 963962570}
 --- !u!1001 &1504994711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1489,12 +3230,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f95c1562abd074283fcf60cdd974a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UpEvent:
+  pass1Up:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 556080851}
-        m_TargetAssemblyTypeName: ButtonActions, Assembly-CSharp
-        m_MethodName: UpButtonMethod
+      - m_Target: {fileID: 763118223}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1504,7 +3245,101 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  pass2Up:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1799010145}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass3Up:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 538788103}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass4Up:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 681338085}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass5Up:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1223071104}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass6Up:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1191649017}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass7Up:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1260458718}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass8Up:
+    m_PersistentCalls:
+      m_Calls: []
   Upbutton: {fileID: 0}
+  progression: {fileID: 992760046}
 --- !u!65 &1504994717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1602,6 +3437,119 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1550293086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1550293087}
+  - component: {fileID: 1550293088}
+  m_Layer: 0
+  m_Name: Pass7In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1550293087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550293086}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1550293088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550293086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Going Down?
+    - Yeah. Going down sounds fun.
+    - More interesting than going up, if I do say so myself.
+    - Would you choose going up mister?
+    - I think that would be quite boring.
+    - ...
+    - "You don\u2019t talk much do you?"
+    names:
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+  manager: {fileID: 963962570}
+--- !u!1 &1598891917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598891918}
+  - component: {fileID: 1598891919}
+  m_Layer: 0
+  m_Name: Pass2OutTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1598891918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598891917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1598891919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598891917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Now this is where I belong.
+    - A good day to you.
+    names:
+    - Snobby Tycoon
+    - Snobby Tycoon
+  manager: {fileID: 963962570}
 --- !u!1 &1640440912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +3584,170 @@ Transform:
   m_Father: {fileID: 2131409616}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1718220917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1718220918}
+  - component: {fileID: 1718220919}
+  m_Layer: 0
+  m_Name: Pass7OutTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1718220918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718220917}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718220919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718220917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - I HATE YOU MISTER!
+    - I HATE YOU!
+    names:
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+  manager: {fileID: 963962570}
+--- !u!1 &1747510789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747510790}
+  - component: {fileID: 1747510791}
+  m_Layer: 0
+  m_Name: Pass6In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1747510790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747510789}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1747510791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747510789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Going Up?
+    - Yes, I am going up.
+    - "Up\u2026"
+    - "Yes\u2026 that is where I will be going."
+    - "It is about that time isn\u2019t it?"
+    names:
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+    - Wrinkly Old Man
+  manager: {fileID: 963962570}
+--- !u!1 &1799010143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799010144}
+  - component: {fileID: 1799010145}
+  m_Layer: 0
+  m_Name: Pass2Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1799010144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799010143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1799010145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799010143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - As Expected.
+    - I would be surprised if you even have thought about taking me down instead.
+    - 'Most definitely would be an arrogant choice on your part. '
+    names:
+    - Snobby Tycoon
+    - Snobby Tycoon
+    - Snobby Tycoon
+  manager: {fileID: 963962570}
 --- !u!1 &1842185199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1722,6 +3834,110 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f9a6140b9bba5f46a8554a411d8049e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1875629889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1875629890}
+  - component: {fileID: 1875629891}
+  m_Layer: 0
+  m_Name: Pass2OutBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1875629890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875629889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1875629891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875629889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - What a crude individual you are.
+    - I hope you are happy with yourself.
+    names:
+    - Snobby Tycoon
+    - Snobby Tycoon
+  manager: {fileID: 963962570}
+--- !u!1 &1885733812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1885733813}
+  - component: {fileID: 1885733814}
+  m_Layer: 0
+  m_Name: Pass4OutTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1885733813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885733812}
+  m_LocalRotation: {x: -0, y: 0.000000059604645, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04136276, y: -0.00064701616, z: 0.0012941635}
+  m_LocalScale: {x: -1.5808707, y: -1.580871, z: -1.5808706}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107065730}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885733814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885733812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Thank you.
+    - "I think next time I\u2019ll try a bit harder.\r\n"
+    names:
+    - Gloomy Teenager
+    - Gloomy Teenager
+  manager: {fileID: 963962570}
 --- !u!1 &1942717514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,6 +4017,169 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942717514}
   m_CullTransparentMesh: 1
+--- !u!1 &1943747945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1943747946}
+  - component: {fileID: 1943747947}
+  m_Layer: 0
+  m_Name: Pass1Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1943747946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943747945}
+  m_LocalRotation: {x: -0.000000029802326, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.026403394, y: 0.000068270216, z: -0.000852863}
+  m_LocalScale: {x: -0.6325629, y: -0.6325627, z: -0.63256294}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1943747947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943747945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Oh\u2026 I see."
+    - "If that is what you think\u2026 I won\u2019t disagree."
+    names:
+    - Mild-Mannered Businessman
+    - Mild-Mannered Businessman
+  manager: {fileID: 963962570}
+--- !u!1 &2035103985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035103986}
+  - component: {fileID: 2035103987}
+  m_Layer: 0
+  m_Name: Pass7Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035103986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035103985}
+  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.05256794, y: -0.0003410588, z: -0.0016714855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035103987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035103985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Oh boy!
+    - This is so exciting!
+    - "It feels like I\u2019ve been waiting my whole life for this!"
+    names:
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+    - Kind-eyed Girl
+  manager: {fileID: 963962570}
+--- !u!1 &2084380561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084380562}
+  - component: {fileID: 2084380563}
+  m_Layer: 0
+  m_Name: Pass2Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084380562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084380561}
+  m_LocalRotation: {x: -0.000000029802326, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.026403394, y: 0.000068270216, z: -0.000852863}
+  m_LocalScale: {x: -0.6325629, y: -0.6325627, z: -0.63256294}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084380563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084380561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Did you just press the going down button? When I specifically said that I would
+      be going up?
+    - Are you deaf?
+    - Were you born with a hearing disorder?
+    - Are you even listening to me right now?
+    names:
+    - Snobby Tycoon
+    - Snobby Tycoon
+    - Snobby Tycoon
+    - Snobby Tycoon
+  manager: {fileID: 963962570}
 --- !u!1001 &2107065729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1891,12 +4270,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a6bbfd8e785994b97858b30b3be19f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OpenEvent:
+  pass1In:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 556080851}
-        m_TargetAssemblyTypeName: ButtonActions, Assembly-CSharp
-        m_MethodName: OpenButtonMethod
+      - m_Target: {fileID: 171067299}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1906,7 +4285,317 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  pass2In:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 856163545}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass3In:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 926618609}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass4In:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 737444658}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass5In:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1327385271}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass6In:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1747510791}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass7In:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1550293088}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass8In:
+    m_PersistentCalls:
+      m_Calls: []
+  pass1OutTop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 614822088}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass2OutTop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1598891919}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass3OutTop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1217274452}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass4OutTop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1885733814}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass5OutTop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 754317619}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass6OutTop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 962704009}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass7OutTop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1718220919}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass8OutTop:
+    m_PersistentCalls:
+      m_Calls: []
+  pass1OutBot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 209617823}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass2OutBot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1875629891}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass3OutBot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 137757398}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass4OutBot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 146375979}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass5OutBot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 66428912}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass6OutBot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 464985662}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass7OutBot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 995774239}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pass8OutBot:
+    m_PersistentCalls:
+      m_Calls: []
   Openbutton: {fileID: 0}
+  progression: {fileID: 992760046}
 --- !u!65 &2107065734
 BoxCollider:
   m_ObjectHideFlags: 0

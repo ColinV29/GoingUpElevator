@@ -13,15 +13,24 @@ public class MakeItOpenButton : MonoBehaviour
     public UnityEvent pass6In = new UnityEvent();
     public UnityEvent pass7In = new UnityEvent();
     public UnityEvent pass8In = new UnityEvent();
-    //out events
-    public UnityEvent pass1Out = new UnityEvent();
-    public UnityEvent pass2Out = new UnityEvent();
-    public UnityEvent pass3Out = new UnityEvent();
-    public UnityEvent pass4Out = new UnityEvent();
-    public UnityEvent pass5Out = new UnityEvent();
-    public UnityEvent pass6Out = new UnityEvent();
-    public UnityEvent pass7Out = new UnityEvent();
-    public UnityEvent pass8Out = new UnityEvent();
+    //out at top events
+    public UnityEvent pass1OutTop = new UnityEvent();
+    public UnityEvent pass2OutTop = new UnityEvent();
+    public UnityEvent pass3OutTop = new UnityEvent();
+    public UnityEvent pass4OutTop = new UnityEvent();
+    public UnityEvent pass5OutTop = new UnityEvent();
+    public UnityEvent pass6OutTop = new UnityEvent();
+    public UnityEvent pass7OutTop = new UnityEvent();
+    public UnityEvent pass8OutTop = new UnityEvent();
+    //out at bot events
+    public UnityEvent pass1OutBot = new UnityEvent();
+    public UnityEvent pass2OutBot = new UnityEvent();
+    public UnityEvent pass3OutBot = new UnityEvent();
+    public UnityEvent pass4OutBot = new UnityEvent();
+    public UnityEvent pass5OutBot = new UnityEvent();
+    public UnityEvent pass6OutBot = new UnityEvent();
+    public UnityEvent pass7OutBot = new UnityEvent();
+    public UnityEvent pass8OutBot = new UnityEvent();
     public GameObject Openbutton;
     public progression progression;
     // Start is called before the first frame update
@@ -70,34 +79,61 @@ public class MakeItOpenButton : MonoBehaviour
             if (progression.getCurrentPass() == 8) {
                 pass8In.Invoke();
             }
-
             progression.advancePhase();
         }
-        else if (progression.currentPhase == progression.gameState.Arrived) {
+        else if (progression.currentPhase == progression.gameState.Arrived && progression.currentPosition == progression.position.top) {
             if (progression.getCurrentPass() == 1) {
-                pass1Out.Invoke();
+                pass1OutTop.Invoke();
             }
             if (progression.getCurrentPass() == 2) {
-                pass2Out.Invoke();
+                pass2OutTop.Invoke();
             }
             if (progression.getCurrentPass() == 3) {
-                pass3Out.Invoke();
+                pass3OutTop.Invoke();
             }
             if (progression.getCurrentPass() == 4) {
-                pass4Out.Invoke();
+                pass4OutTop.Invoke();
             }
             if (progression.getCurrentPass() == 5) {
-                pass5Out.Invoke();
+                pass5OutTop.Invoke();
             }
             if (progression.getCurrentPass() == 6) {
-                pass6Out.Invoke();
+                pass6OutTop.Invoke();
             }
             if (progression.getCurrentPass() == 7) {
-                pass7Out.Invoke();
+                pass7OutTop.Invoke();
             }
             if (progression.getCurrentPass() == 8) {
-                pass8Out.Invoke();
+                pass8OutTop.Invoke();
             }
+            progression.advancePhase();
+        }
+        else if (progression.currentPhase == progression.gameState.Arrived && progression.currentPosition == progression.position.bottom) {
+            if (progression.getCurrentPass() == 1) {
+                pass1OutBot.Invoke();
+            }
+            if (progression.getCurrentPass() == 2) {
+                pass2OutBot.Invoke();
+            }
+            if (progression.getCurrentPass() == 3) {
+                pass3OutBot.Invoke();
+            }
+            if (progression.getCurrentPass() == 4) {
+                pass4OutBot.Invoke();
+            }
+            if (progression.getCurrentPass() == 5) {
+                pass5OutBot.Invoke();
+            }
+            if (progression.getCurrentPass() == 6) {
+                pass6OutBot.Invoke();
+            }
+            if (progression.getCurrentPass() == 7) {
+                pass7OutBot.Invoke();
+            }
+            if (progression.getCurrentPass() == 8) {
+                pass8OutBot.Invoke();
+            }
+            progression.advancePhase();
         }
     }
 }

@@ -70,7 +70,9 @@ public class MakeItUpButton : MonoBehaviour
         }
         else if (progression.currentPhase == progression.gameState.Return && progression.currentPosition == progression.position.bottom) {
             progression.advancePhase();
+            progression.advancePass();
             progression.StartCoroutine(progression.GoingUp());
+            
         }
     return;
     }

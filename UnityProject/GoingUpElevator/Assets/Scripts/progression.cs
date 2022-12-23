@@ -84,4 +84,24 @@ public class progression : MonoBehaviour
         Debug.Log("Arrived at " + currentPosition);
         advancePhase();
     }
+
+    public IEnumerator GoingDown() {
+        Debug.Log("Going Down from " + currentPosition);
+        
+        yield return new WaitForSeconds(7);
+
+        switch(currentPosition){
+            case position.bottom:
+                Debug.Log("bruh you're in the backrooms");
+                break;
+            case position.middle:
+                currentPosition = position.bottom;
+                break;
+            case position.top:
+                currentPosition = position.middle;
+                break;
+        }
+        Debug.Log("Arrived at " + currentPosition);
+        advancePhase();
+    }
 }

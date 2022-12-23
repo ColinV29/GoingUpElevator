@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32702 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32684 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\SUNY\Year 2\Semester 4\COM-319 Assest Production\Unity\2021.3.15f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
+C:/Users/Curly/OneDrive/Documents/GitHub/GoingUpElevator/UnityProject/GoingUpElevator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63675
-Successfully changed project path to: D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
-D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
+57261
+Successfully changed project path to: C:/Users/Curly/OneDrive/Documents/GitHub/GoingUpElevator/UnityProject/GoingUpElevator
+C:/Users/Curly/OneDrive/Documents/GitHub/GoingUpElevator/UnityProject/GoingUpElevator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,109 @@ D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14004] Host "[IP] 192.168.1.221 [Port] 0 [Flags] 2 [Guid] 3332817536 [EditorId] 3332817536 [Version] 1048832 [Id] WindowsEditor(7,Matts-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21048] Host "[IP] 192.168.254.47 [Port] 0 [Flags] 2 [Guid] 366663418 [EditorId] 366663418 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E6QBPHH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14004] Host "[IP] 192.168.1.221 [Port] 0 [Flags] 2 [Guid] 3332817536 [EditorId] 3332817536 [Version] 1048832 [Id] WindowsEditor(7,Matts-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21048] Host "[IP] 192.168.254.47 [Port] 0 [Flags] 2 [Guid] 366663418 [EditorId] 366663418 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E6QBPHH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 65.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 174.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
-[Subsystems] Discovering subsystems at path D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GoingUpElevatorMatt Repo/GoingUpElevatorMatt/UnityProject/GoingUpElevator/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Curly/OneDrive/Documents/GitHub/GoingUpElevator/UnityProject/GoingUpElevator/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     12100 MB
+    VRAM:     12129 MB
     Driver:   31.0.15.2756
 Initialize mono
-Mono path[0] = 'D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/Managed'
-Mono path[1] = 'D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/SUNY/Year 2/Semester 4/COM-319 Assest Production/Unity/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003191 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026254 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 199.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.540 seconds
+- Completed reload, in  1.901 seconds
 Domain Reload Profiling:
-	ReloadAssembly (541ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (1902ms)
+		BeginReloadAssembly (376ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (395ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (356ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (237ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (731ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (199ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (205ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003321 seconds.
+Registered in 0.012724 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Curly\OneDrive\Documents\GitHub\GoingUpElevator\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Curly\OneDrive\Documents\GitHub\GoingUpElevator\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  2.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (847ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (2682ms)
+		BeginReloadAssembly (412ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (21ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (671ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1990ms)
+			LoadAssemblies (236ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
+			SetupTypeCache (696ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (173ms)
+			SetupLoadedEditorAssemblies (755ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (521ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.61 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3528 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 3980.
-Memory consumption went from 131.6 MB to 130.3 MB.
-Total: 2.860100 ms (FindLiveObjects: 0.266800 ms CreateObjectMapping: 0.219500 ms MarkObjects: 2.128900 ms  DeleteObjects: 0.244300 ms)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 3974.
+Memory consumption went from 131.9 MB to 130.6 MB.
+Total: 6.793900 ms (FindLiveObjects: 0.661800 ms CreateObjectMapping: 0.529600 ms MarkObjects: 5.047900 ms  DeleteObjects: 0.551500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,219 +163,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22965.282768 seconds.
-  path: Assets/Assets/3D/ElevatorGen2.fbx
-  artifactKey: Guid(e43f1ba68cf76da4ea6f1926363c85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/ElevatorGen2.fbx using Guid(e43f1ba68cf76da4ea6f1926363c85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512b7e4cbd85f7c768bd4d8d0c4763a9') in 0.163696 seconds 
+  Time since last request: 352515.602606 seconds.
+  path: Assets/Assets/3D/Railings.fbx
+  artifactKey: Guid(ddc84137b04a8ad4a88707c09a35b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Railings.fbx using Guid(ddc84137b04a8ad4a88707c09a35b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b16e4a2cb95b374dd68966acccf454a') in 0.472538 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.687711 seconds.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/3D/Up_button.fbx
+  artifactKey: Guid(ba79d5a061fbdf749ac71d0934465fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Up_button.fbx using Guid(ba79d5a061fbdf749ac71d0934465fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f752307c70ac6d963639470aec569d') in 0.074409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013824 seconds.
+  path: Assets/Assets/3D/SuperImportant3dassetthatthegamecantworkwithout.fbx
+  artifactKey: Guid(509bfd11e17da604298d2fd74ff7fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/SuperImportant3dassetthatthegamecantworkwithout.fbx using Guid(509bfd11e17da604298d2fd74ff7fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d5133cd224fbb40d635c2a3a6c310e') in 0.086943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
   path: Assets/Assets/3D/Elevatorfloor.fbx
   artifactKey: Guid(efdb9af1af69ddd45ade7cce0a783903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatorfloor.fbx using Guid(efdb9af1af69ddd45ade7cce0a783903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db574cf388123ec4ba20d5b1b9c22a58') in 0.013374 seconds 
+Start importing Assets/Assets/3D/Elevatorfloor.fbx using Guid(efdb9af1af69ddd45ade7cce0a783903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc07bf7453049ac32746471381f5a560') in 0.058580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.274151 seconds.
-  path: Assets/Assets/3D/ElevatordecLower.fbx
-  artifactKey: Guid(4a1f9b8ec99509449bcc2b4abe331b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/ElevatordecLower.fbx using Guid(4a1f9b8ec99509449bcc2b4abe331b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c3ee5545dca9d50f8adca6678615fd') in 0.013062 seconds 
+  Time since last request: 0.000336 seconds.
+  path: Assets/Assets/3D/Open_door_button.fbx
+  artifactKey: Guid(ac4458fe5ba35b9499f3e92932470eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Open_door_button.fbx using Guid(ac4458fe5ba35b9499f3e92932470eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25828a9bb8a8dc51e6812ba64b4e0e0c') in 0.078840 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.461943 seconds.
-  path: Assets/Assets/3D/Elevatordec3.fbx
-  artifactKey: Guid(60f432030a1da3c4db943def49d06e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatordec3.fbx using Guid(60f432030a1da3c4db943def49d06e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cecd3d0edda45a8f99750941205d0e') in 0.011901 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/3D/Up_downbutton.fbx
+  artifactKey: Guid(7c48fb2d49b411d4aa1fa63d2f5bcb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Up_downbutton.fbx using Guid(7c48fb2d49b411d4aa1fa63d2f5bcb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c23e223261de6746db7cfdeb4a9c7f') in 0.045959 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.684097 seconds.
-  path: Assets/Assets/3D/ElevatordecLevelarea.fbx
-  artifactKey: Guid(4930a2bf8201ad8469b9f2a20bad66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/ElevatordecLevelarea.fbx using Guid(4930a2bf8201ad8469b9f2a20bad66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d325aec2b6a2a429803498eeba3fb2') in 0.009609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.213058 seconds.
-  path: Assets/Assets/3D/Elevatordec1.fbx
-  artifactKey: Guid(d8791e51385260a4781c7e4714d672b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatordec1.fbx using Guid(d8791e51385260a4781c7e4714d672b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431730c3cef3c7be357aefcae812c5ab') in 0.012227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.975801 seconds.
-  path: Assets/Assets/3D/Elevatordec1 1.fbx
-  artifactKey: Guid(30a2a9b1407f2124d8edd925239f01c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatordec1 1.fbx using Guid(30a2a9b1407f2124d8edd925239f01c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20506855dcca4be18146f5186a6877a') in 0.012679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.433243 seconds.
-  path: Assets/Assets/3D/Elevatordec1 2.fbx
-  artifactKey: Guid(9ee5bbb92369ef641ae039ee32cfb088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatordec1 2.fbx using Guid(9ee5bbb92369ef641ae039ee32cfb088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6085111e410db3f5d2a697a193e50d') in 0.012543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.255422 seconds.
-  path: Assets/Assets/3D/LightWood.mat
-  artifactKey: Guid(219eb70bcef9cdb4da62dbe79c0ea044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/LightWood.mat using Guid(219eb70bcef9cdb4da62dbe79c0ea044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77aa3c5426dbae0fbba649efa8fec05a') in 0.128850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.741378 seconds.
-  path: Assets/Assets/3D/DarkWood.mat
-  artifactKey: Guid(2547d56edfcfd5f4b8a41508c84875d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/DarkWood.mat using Guid(2547d56edfcfd5f4b8a41508c84875d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2ba59d2652dcbbe5d9f478e0e9aa2b') in 0.008619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.565915 seconds.
-  path: Assets/Assets/3D/Gold.mat
-  artifactKey: Guid(f4420a0299c12594ea4dfb7c12744ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Gold.mat using Guid(f4420a0299c12594ea4dfb7c12744ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dda9800211b6f7e64b3ded8a403997') in 0.143113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.668163 seconds.
-  path: Assets/Assets/3D/Dark Wood.png
-  artifactKey: Guid(3b6b00ae5db7c1c4698abf8250decae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Dark Wood.png using Guid(3b6b00ae5db7c1c4698abf8250decae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6c61da7ec15f12fea6ffb5c011f0db') in 0.019362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/3D/Elevatordec1.fbx
-  artifactKey: Guid(d8791e51385260a4781c7e4714d672b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatordec1.fbx using Guid(d8791e51385260a4781c7e4714d672b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2b9864da7deab506d3324f2d839e4c') in 0.014360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.881095 seconds.
-  path: Assets/Assets/3D/Darkwoodnorm.png
-  artifactKey: Guid(3a6af307c8d74244b96905f511fd9858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Darkwoodnorm.png using Guid(3a6af307c8d74244b96905f511fd9858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d4ae5d28f3dfb86f2c0bd5c746b89c') in 0.007963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.618656 seconds.
-  path: Assets/Assets/3D/Elevatordec1 1.fbx
-  artifactKey: Guid(30a2a9b1407f2124d8edd925239f01c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatordec1 1.fbx using Guid(30a2a9b1407f2124d8edd925239f01c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0602c6644a1a7483933366b952cba070') in 0.014230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/3D/Gold.png
-  artifactKey: Guid(bf5a2d68081170544a900071240ff226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Gold.png using Guid(bf5a2d68081170544a900071240ff226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f04896179b61e37b743c2b655cf191') in 0.004731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.520282 seconds.
+  Time since last request: 0.000078 seconds.
   path: Assets/Assets/3D/ElevatorGen2.fbx
   artifactKey: Guid(e43f1ba68cf76da4ea6f1926363c85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/ElevatorGen2.fbx using Guid(e43f1ba68cf76da4ea6f1926363c85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498db3d685cbf8a5094c8d3b1c320ec0') in 0.017319 seconds 
+Start importing Assets/Assets/3D/ElevatorGen2.fbx using Guid(e43f1ba68cf76da4ea6f1926363c85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0752afdb99370fd7da1a9b2eadbfed66') in 0.041648 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.815541 seconds.
-  path: Assets/Assets/3D/LightWoodNormal.png
-  artifactKey: Guid(b25adb1f249863e42a39d4e548cce863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/LightWoodNormal.png using Guid(b25adb1f249863e42a39d4e548cce863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee719c99d3746aa6aa143886df7c57e7') in 0.007017 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/3D/Elevatordec1.fbx
+  artifactKey: Guid(d8791e51385260a4781c7e4714d672b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Elevatordec1.fbx using Guid(d8791e51385260a4781c7e4714d672b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64adcc3e52fdf0770aed4e260077dbe') in 0.035658 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.985859 seconds.
-  path: Assets/Assets/3D/Tiled FLoor.png
-  artifactKey: Guid(f1377302e383a55458a971f2aab8579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Tiled FLoor.png using Guid(f1377302e383a55458a971f2aab8579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a42f4267ddcb1826918d5b2c599288') in 0.008761 seconds 
+  Time since last request: 0.004134 seconds.
+  path: Assets/Assets/3D/ElevatordecLower.fbx
+  artifactKey: Guid(4a1f9b8ec99509449bcc2b4abe331b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/ElevatordecLower.fbx using Guid(4a1f9b8ec99509449bcc2b4abe331b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905be9778238d2b5182c6e93dc3ab099') in 0.069283 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.929008 seconds.
-  path: Assets/Assets/3D/Tiled Floor Nrom.png
-  artifactKey: Guid(82cfe166ec7ff14469266dd8c1f74434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Tiled Floor Nrom.png using Guid(82cfe166ec7ff14469266dd8c1f74434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608f98248488e3186f62d352536fa89f') in 0.007598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 195.430739 seconds.
-  path: Assets/Assets/3D/Tile.mat
-  artifactKey: Guid(a649596297d8c334e894212e0599968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Tile.mat using Guid(a649596297d8c334e894212e0599968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e2ad55fd06de1e12215e36ea6c410') in 0.008181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.822457 seconds.
-  path: Assets/Assets/3D/Tiled Floor Nrom.png
-  artifactKey: Guid(82cfe166ec7ff14469266dd8c1f74434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Tiled Floor Nrom.png using Guid(82cfe166ec7ff14469266dd8c1f74434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e581716ccb272cfd374ed80f919ebce') in 0.012467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.599991 seconds.
-  path: Assets/Assets/3D/LightWoodNormal.png
-  artifactKey: Guid(b25adb1f249863e42a39d4e548cce863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/LightWoodNormal.png using Guid(b25adb1f249863e42a39d4e548cce863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b013991159e40f311e2e19cef88d7c0') in 0.007542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.440178 seconds.
-  path: Assets/Assets/3D/Darkwoodnorm.png
-  artifactKey: Guid(3a6af307c8d74244b96905f511fd9858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Darkwoodnorm.png using Guid(3a6af307c8d74244b96905f511fd9858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda3d450ff7f38688bdfadc5225158f4') in 0.008678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 494.995601 seconds.
+  Time since last request: 0.000036 seconds.
   path: Assets/Assets/3D/Elevatorwhole.fbx
   artifactKey: Guid(044e40f1dd2dc1942b0d3b627abc7433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Elevatorwhole.fbx using Guid(044e40f1dd2dc1942b0d3b627abc7433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66575946167cc72a87d52c160d534d9e') in 0.071076 seconds 
+Start importing Assets/Assets/3D/Elevatorwhole.fbx using Guid(044e40f1dd2dc1942b0d3b627abc7433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77628e0520d6ae0483b7cb976ab5d07e') in 0.227893 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 374.117477 seconds.
+  Time since last request: 6.638441 seconds.
   path: Assets/Assets/3D/DarkWood.mat
   artifactKey: Guid(2547d56edfcfd5f4b8a41508c84875d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/DarkWood.mat using Guid(2547d56edfcfd5f4b8a41508c84875d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4601cf193aaec7f06339fd7c20d370b4') in 0.017156 seconds 
+Start importing Assets/Assets/3D/DarkWood.mat using Guid(2547d56edfcfd5f4b8a41508c84875d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fa1972f9a2923df9de05ac668eb1e8') in 0.232589 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.194434 seconds.
+  Time since last request: 0.000778 seconds.
   path: Assets/Assets/3D/LightWood.mat
   artifactKey: Guid(219eb70bcef9cdb4da62dbe79c0ea044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/LightWood.mat using Guid(219eb70bcef9cdb4da62dbe79c0ea044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5350f04546f8864f01f49d7e0670f5') in 0.013856 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003406 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GoingUpElevatorMatt Repo\GoingUpElevatorMatt\UnityProject\GoingUpElevator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
-Domain Reload Profiling:
-	ReloadAssembly (961ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (747ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3481 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4032.
-Memory consumption went from 132.1 MB to 130.8 MB.
-Total: 3.509500 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.213900 ms MarkObjects: 2.552600 ms  DeleteObjects: 0.523600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/Assets/3D/LightWood.mat using Guid(219eb70bcef9cdb4da62dbe79c0ea044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffde13c3798b6c66a797e025c9dd6d42') in 0.048094 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

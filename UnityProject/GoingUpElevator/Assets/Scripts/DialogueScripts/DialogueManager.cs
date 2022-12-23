@@ -10,21 +10,24 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
 
     public Queue<string> sentences;
+    public Queue<string> names;
 
     void Start()
     {
         sentences = new Queue<string>();
+        names = new Queue<string>();
         gameObject.SetActive(false);
     }
 
     public void StartDialogue(Dialogue dialogue){
         gameObject.SetActive(true);
-
-        nameText.text = dialogue.name;
         sentences.Clear();
 
         foreach (string sentence in dialogue.sentences) {
             sentences.Enqueue(sentence);
+        }
+        foreach (string name in dialogue.names) {
+            names.Enqueue(name);
         }
 
         DisplayNextSentence();
@@ -36,6 +39,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        nameText.text = names.Dequeue();
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));

@@ -6,7 +6,7 @@ public class DialoguePrompt : MonoBehaviour
 {
     public Dialogue dialogue;
     public DialogueManager manager;
-
+    
     public void TriggerDialogue(){
         manager.StartDialogue(dialogue);
     }

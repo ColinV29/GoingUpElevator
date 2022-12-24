@@ -108,10 +108,10 @@ TextureImporter:
       name: snobby_tycoon_1_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 477
-        width: 2500
-        height: 2500
+        x: 161
+        y: 379
+        width: 2379
+        height: 2557
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

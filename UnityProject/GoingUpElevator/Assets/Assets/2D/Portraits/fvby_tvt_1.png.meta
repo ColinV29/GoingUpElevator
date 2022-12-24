@@ -108,12 +108,12 @@ TextureImporter:
       name: fvby_tvt_1_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 917
-        width: 2000
-        height: 2000
+        x: 34
+        y: 508
+        width: 1958
+        height: 2473
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

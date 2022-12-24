@@ -108,10 +108,10 @@ TextureImporter:
       name: Hard_boiled_1_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 947
-        width: 2000
-        height: 2000
+        x: 86
+        y: 451
+        width: 1863
+        height: 2479
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

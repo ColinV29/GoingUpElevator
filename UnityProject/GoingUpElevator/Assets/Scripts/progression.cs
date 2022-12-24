@@ -8,6 +8,7 @@ public class progression : MonoBehaviour
     private static progression _instance;
     public static progression instance;
     public Animator cameraAnimator, creditsAnimator;
+    public ChangeMaterial UpArrow, DownArrow;
     void Awake()
     {
         if (_instance != null) Destroy (this);
@@ -70,13 +71,17 @@ public class progression : MonoBehaviour
     //transition coroutine
     public IEnumerator GoingUp() {
         wentUp = true;
+        UpArrow.Go_green();
         yield return new WaitForSeconds(7);
+        UpArrow.Go_Null();
         advancePhase();
     }
 
     public IEnumerator GoingDown() {
         wentUp = false;
+        DownArrow.Go_green();
         yield return new WaitForSeconds(7);
+        DownArrow.Go_Null();
         advancePhase();
     }
 

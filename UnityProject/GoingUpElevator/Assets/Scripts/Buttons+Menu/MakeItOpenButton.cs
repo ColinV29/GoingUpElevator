@@ -35,6 +35,7 @@ public class MakeItOpenButton : MonoBehaviour
     public UnityEvent Closedoor = new UnityEvent();
     public GameObject Openbutton;
     public progression progression;
+    public AudioSource doorNoise;
     public int door_state = 1;
     public Animator OpenbuttonAnim;
     // Start is called before the first frame update
@@ -56,14 +57,6 @@ public class MakeItOpenButton : MonoBehaviour
             {
                 Openbuttonpushed();
                 DeterminePass();
-                if (door_state == 1)
-                {
-                    Opendoor.Invoke();
-                }
-                else
-                {
-                    Closedoor.Invoke();
-                }
             }
         }
     }
@@ -94,7 +87,10 @@ public class MakeItOpenButton : MonoBehaviour
                 pass8In.Invoke();
             }
             progression.advancePhase();
-            
+            Opendoor.Invoke();
+            progression.buttonsActive = false;
+            StartCoroutine(ShutDoor());
+            doorNoise.Play();
         }
         else if (progression.currentPhase == progression.gameState.Arrived && progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
@@ -123,10 +119,15 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 8) {
                 progression.endGame(true);
+                Opendoor.Invoke();
                 return;
             }
             progression.advancePhase();
             progression.advancePass();
+            Opendoor.Invoke();
+            progression.buttonsActive = false;
+            StartCoroutine(ShutDoor());
+            doorNoise.Play();
         }
         else if (progression.currentPhase == progression.gameState.Arrived && !progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
@@ -155,10 +156,15 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 8) {
                 progression.endGame(false);
+                Opendoor.Invoke();
                 return;
             }
             progression.advancePhase();
             progression.advancePass();
+            Opendoor.Invoke();
+            progression.buttonsActive = false;
+            StartCoroutine(ShutDoor());
+            doorNoise.Play();
         }
     }
     public void Openbuttonpushed()
@@ -172,4 +178,11 @@ public class MakeItOpenButton : MonoBehaviour
         OpenbuttonAnim.SetBool("IsPuhed", false);
     }
     
+
+    IEnumerator ShutDoor() {
+        yield return new WaitForSeconds(2.5f);
+        Closedoor.Invoke();
+        progression.buttonsActive = true;
+        doorNoise.Play();
+    }
 }

@@ -32,7 +32,6 @@ public class MakeItOpenButton : MonoBehaviour
     public UnityEvent pass7OutBot = new UnityEvent();
     public UnityEvent pass8OutBot = new UnityEvent();
     public GameObject Openbutton;
-    public Shake camera;
     public progression progression;
     // Start is called before the first frame update
     void Start()
@@ -48,7 +47,7 @@ public class MakeItOpenButton : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             //check
-            if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
+            if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject && progression.buttonsActive)
             {
                 DeterminePass();
             }
@@ -81,8 +80,9 @@ public class MakeItOpenButton : MonoBehaviour
                 pass8In.Invoke();
             }
             progression.advancePhase();
+            
         }
-        else if (progression.currentPhase == progression.gameState.Arrived && progression.currentPosition == progression.position.top) {
+        else if (progression.currentPhase == progression.gameState.Arrived && progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
                 pass1OutTop.Invoke();
             }
@@ -108,8 +108,9 @@ public class MakeItOpenButton : MonoBehaviour
                 pass8OutTop.Invoke();
             }
             progression.advancePhase();
+            progression.advancePass();
         }
-        else if (progression.currentPhase == progression.gameState.Arrived && progression.currentPosition == progression.position.bottom) {
+        else if (progression.currentPhase == progression.gameState.Arrived && !progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
                 pass1OutBot.Invoke();
             }
@@ -135,6 +136,7 @@ public class MakeItOpenButton : MonoBehaviour
                 pass8OutBot.Invoke();
             }
             progression.advancePhase();
+            progression.advancePass();
         }
     }
 }

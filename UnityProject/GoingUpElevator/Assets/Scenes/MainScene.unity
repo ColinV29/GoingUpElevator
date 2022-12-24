@@ -223,7 +223,8 @@ MonoBehaviour:
     - "Maybe it wasn\u2019t all worth it after all."
     names:
     - Hard-Boiled Punk
-    portraits: []
+    portraits:
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &146375977
 GameObject:
@@ -277,7 +278,9 @@ MonoBehaviour:
     names:
     - 
     - 
-    portraits: []
+    portraits:
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &171067297
 GameObject:
@@ -403,7 +406,9 @@ MonoBehaviour:
     names:
     - Gloomy Teenager
     - Gloomy Teenager
-    portraits: []
+    portraits:
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &209617821
 GameObject:
@@ -456,7 +461,9 @@ MonoBehaviour:
     names:
     - Mild-Mannered Businessman
     - Mild-Mannered Businessman
-    portraits: []
+    portraits:
+    - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
+    - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &275895094
 GameObject:
@@ -507,7 +514,8 @@ MonoBehaviour:
     - I guess I will be going down then.
     names:
     - Hard-Boiled Punk
-    portraits: []
+    portraits:
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
   manager: {fileID: 963962570}
 --- !u!1001 &293077452
 PrefabInstance:
@@ -918,7 +926,8 @@ MonoBehaviour:
     - I guess I will be going up then. I figured as much.
     names:
     - Hard-Boiled Punk
-    portraits: []
+    portraits:
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &552509746
 GameObject:
@@ -1113,6 +1122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameState: 0
   pauseMenu: {fileID: 840859218}
+  progression: {fileID: 992760046}
 --- !u!1 &560371934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +1449,9 @@ MonoBehaviour:
     names:
     - Mild-Mannered Businessman
     - Mild-Mannered Businessman
-    portraits: []
+    portraits:
+    - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
+    - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &681338083
 GameObject:
@@ -1496,7 +1508,11 @@ MonoBehaviour:
     - Gloomy Teenager
     - Gloomy Teenager
     - 
-    portraits: []
+    portraits:
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &737444656
 GameObject:
@@ -1555,7 +1571,12 @@ MonoBehaviour:
     - 
     - Gloomy Teenager
     - Gloomy Teenager
-    portraits: []
+    portraits:
+    - {fileID: 1686230192, guid: f3400f3cc002bce4f81799781e28d8a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &740998663
 GameObject:
@@ -2116,7 +2137,12 @@ MonoBehaviour:
     - Snobby Tycoon
     - Snobby Tycoon
     - Snobby Tycoon
-    portraits: []
+    portraits:
+    - {fileID: 1686230192, guid: f3400f3cc002bce4f81799781e28d8a8, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &926618607
 GameObject:
@@ -2175,7 +2201,12 @@ MonoBehaviour:
     - Hard-Boiled Punk
     - Hard-Boiled Punk
     - Hard-Boiled Punk
-    portraits: []
+    portraits:
+    - {fileID: 1686230192, guid: f3400f3cc002bce4f81799781e28d8a8, type: 3}
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &962704007
 GameObject:
@@ -2523,7 +2554,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Downbutton: {fileID: 0}
-  camera: {fileID: 1510797417}
+  cam: {fileID: 1510797417}
   progression: {fileID: 992760046}
 --- !u!65 &988800230
 BoxCollider:
@@ -2568,7 +2599,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPhase: 0
-  currentPosition: 1
+  wentUp: 0
+  buttonsActive: 0
 --- !u!4 &992760047
 Transform:
   m_ObjectHideFlags: 0
@@ -2946,7 +2978,8 @@ MonoBehaviour:
     - So in the end it was all worth it.
     names:
     - Hard-Boiled Punk
-    portraits: []
+    portraits:
+    - {fileID: 258730756, guid: 4a05a4a5797bafb40baac86f5de1b875, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &1223071102
 GameObject:
@@ -3542,7 +3575,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Upbutton: {fileID: 0}
-  camera: {fileID: 1510797417}
+  cam: {fileID: 1510797417}
   progression: {fileID: 992760046}
 --- !u!65 &1504994717
 BoxCollider:
@@ -3899,7 +3932,9 @@ MonoBehaviour:
     names:
     - Snobby Tycoon
     - Snobby Tycoon
-    portraits: []
+    portraits:
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &1640440912
 GameObject:
@@ -4100,7 +4135,10 @@ MonoBehaviour:
     - Snobby Tycoon
     - Snobby Tycoon
     - Snobby Tycoon
-    portraits: []
+    portraits:
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &1842185199
 GameObject:
@@ -4239,7 +4277,9 @@ MonoBehaviour:
     names:
     - Snobby Tycoon
     - Snobby Tycoon
-    portraits: []
+    portraits:
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &1885733812
 GameObject:
@@ -4292,7 +4332,9 @@ MonoBehaviour:
     names:
     - Gloomy Teenager
     - Gloomy Teenager
-    portraits: []
+    portraits:
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
+    - {fileID: 702834959, guid: e786142f3f7a5594bb530d9f98beb9a8, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &1942717514
 GameObject:
@@ -4424,7 +4466,9 @@ MonoBehaviour:
     names:
     - Mild-Mannered Businessman
     - Mild-Mannered Businessman
-    portraits: []
+    portraits:
+    - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
+    - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
   manager: {fileID: 963962570}
 --- !u!1 &2035103985
 GameObject:
@@ -4537,7 +4581,11 @@ MonoBehaviour:
     - Snobby Tycoon
     - Snobby Tycoon
     - Snobby Tycoon
-    portraits: []
+    portraits:
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
+    - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
   manager: {fileID: 963962570}
 --- !u!1001 &2107065729
 PrefabInstance:
@@ -4954,7 +5002,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Openbutton: {fileID: 0}
-  camera: {fileID: 0}
   progression: {fileID: 992760046}
 --- !u!65 &2107065734
 BoxCollider:

@@ -14,7 +14,7 @@ public class MakeItUpButton : MonoBehaviour
     public UnityEvent pass6Up = new UnityEvent();
     public UnityEvent pass7Up = new UnityEvent();
     public UnityEvent pass8Up = new UnityEvent();
-
+    public Animator UpbuttonAnim;
 
     public GameObject Upbutton;
     public Shake cam;
@@ -35,6 +35,7 @@ public class MakeItUpButton : MonoBehaviour
             //check
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject && progression.buttonsActive)
             {
+                Upbuttonpushed();
                 DeterminePass();
             }
         }
@@ -79,4 +80,16 @@ public class MakeItUpButton : MonoBehaviour
         }
     return;
     }
+
+    public void Upbuttonpushed()
+    {
+        UpbuttonAnim.SetBool("Pushed", true);
+        Debug.Log("Upbuttonanimated");
+        Invoke("undoanim", 1f);
+    }
+    public void undoanim()
+    {
+        UpbuttonAnim.SetBool("Pushed", false);
+    }
+
 }

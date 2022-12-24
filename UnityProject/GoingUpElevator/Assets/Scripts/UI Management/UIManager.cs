@@ -7,8 +7,14 @@ public class UIManager : MonoBehaviour
 {
     public int GameState = 0;
     public GameObject pauseMenu;
+    public GameObject settingsMenu;
     public progression progression;
     public UnityEvent Startpressed;
+
+    private void Start()
+    {
+        settingsMenu.SetActive(false);
+    }
 
 
     public void Quit()
@@ -25,5 +31,19 @@ public class UIManager : MonoBehaviour
         progression.buttonsActive = true;
         Debug.Log("Play Ball!");
         Startpressed.Invoke();
+    }
+
+    public void settings_pressed()
+    {
+        pauseMenu.SetActive(false);
+        settingsMenu.SetActive(true);
+
+    }
+
+    public void back_pressed()
+    {
+        settingsMenu.SetActive(false);
+        pauseMenu.SetActive(true);
+
     }
 }

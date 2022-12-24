@@ -48,7 +48,7 @@ public class progression : MonoBehaviour
     }
 
     //establish current passenger and functions
-    private int currentPass;
+    public int currentPass;
     public int getCurrentPass(){
         return currentPass;
     }
@@ -80,8 +80,8 @@ public class progression : MonoBehaviour
     }
 
     protected bool[] goingUps = {true, false, true, false, true, true, false};
-    protected bool nextPass;
-    public bool wentUp;
+    protected bool nextPass = true;
+    public bool wentUp = false;
     public void advanceUps() {
         nextPass = goingUps[currentPass - 1];
     }
@@ -90,4 +90,9 @@ public class progression : MonoBehaviour
     }
 
     public bool buttonsActive = false;
+    public bool confirm = false;
+
+    public void endGame(bool Up) {
+        Application.Quit();
+    }
 }

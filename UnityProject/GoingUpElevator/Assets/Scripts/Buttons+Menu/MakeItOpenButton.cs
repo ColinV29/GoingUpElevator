@@ -48,7 +48,7 @@ public class MakeItOpenButton : MonoBehaviour
         {
             //check
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject && progression.buttonsActive)
-            {
+            {   
                 DeterminePass();
             }
         }
@@ -103,9 +103,13 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 7) {
                 pass7OutTop.Invoke();
+                progression.advancePhase();
+                progression.advancePhase();
+                progression.advancePhase();
             }
             if (progression.getCurrentPass() == 8) {
-                pass8OutTop.Invoke();
+                progression.endGame(true);
+                return;
             }
             progression.advancePhase();
             progression.advancePass();
@@ -131,9 +135,13 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 7) {
                 pass7OutBot.Invoke();
+                progression.advancePhase();
+                progression.advancePhase();
+                progression.advancePhase();
             }
             if (progression.getCurrentPass() == 8) {
-                pass8OutBot.Invoke();
+                progression.endGame(false);
+                return;
             }
             progression.advancePhase();
             progression.advancePass();

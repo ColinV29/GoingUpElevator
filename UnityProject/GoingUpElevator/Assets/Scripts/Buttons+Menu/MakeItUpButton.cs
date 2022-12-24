@@ -63,8 +63,10 @@ public class MakeItUpButton : MonoBehaviour
             if (progression.getCurrentPass() == 7) {
                 pass7Up.Invoke();
             }
-            if (progression.getCurrentPass() == 8) {
+            if (progression.getCurrentPass() == 8 && progression.confirm == false) {
                 pass8Up.Invoke();
+                progression.confirm = true;
+                return;
             }
             progression.advancePhase();
             progression.StartCoroutine(progression.GoingUp());
@@ -73,7 +75,7 @@ public class MakeItUpButton : MonoBehaviour
         else if (progression.currentPhase == progression.gameState.Return && progression.getNextPass()) {
             progression.advancePhase();
             progression.StartCoroutine(progression.GoingUp());
-            cam.StartCoroutine(cam.Shaking(7));            
+            cam.StartCoroutine(cam.Shaking(7));
         }
     return;
     }

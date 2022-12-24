@@ -172,7 +172,8 @@ MonoBehaviour:
     - Keep up the good work sir.
     names:
     - Fancy-Looking Woman
-    portraits: []
+    portraits:
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &137757396
 GameObject:
@@ -464,6 +465,58 @@ MonoBehaviour:
     portraits:
     - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
     - {fileID: -1787627384, guid: 550199b2307704f4eac3cc22ddb214f3, type: 3}
+  manager: {fileID: 963962570}
+--- !u!1 &218407665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 218407666}
+  - component: {fileID: 218407667}
+  m_Layer: 0
+  m_Name: Pass8Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &218407666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218407665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504994712}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &218407667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218407665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Are you sure?
+    names:
+    - 
+    portraits:
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &275895094
 GameObject:
@@ -875,7 +928,8 @@ MonoBehaviour:
     - I wonder if it was something I said.
     names:
     - Wrinkly Old Man
-    portraits: []
+    portraits:
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &538788101
 GameObject:
@@ -955,16 +1009,16 @@ Light:
   m_GameObject: {fileID: 552509746}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 0
+  m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7254902, g: 0.6764985, b: 0.5568628, a: 1}
-  m_Intensity: 2
-  m_Range: 50
+  m_Color: {r: 0.6603774, g: 0.6299519, b: 0.5513528, a: 1}
+  m_Intensity: 1
+  m_Range: 45
   m_SpotAngle: 153.9
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -997,7 +1051,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1.2249769, y: 0.86650556}
   m_BounceIntensity: 1
@@ -1016,7 +1070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552509746}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.020119786, y: 1.0139998, z: -0.00080007315}
+  m_LocalPosition: {x: -0.020119786, y: 1.998, z: -0.00080007315}
   m_LocalScale: {x: 5.514845, y: 5.514844, z: 5.514844}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1631,7 +1685,10 @@ MonoBehaviour:
     - Wrinkly Old Man
     - Wrinkly Old Man
     - Wrinkly Old Man
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &754317617
 GameObject:
@@ -1682,7 +1739,8 @@ MonoBehaviour:
     - Keep up the good work sir.
     names:
     - Fancy-Looking Woman
-    portraits: []
+    portraits:
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &763118221
 GameObject:
@@ -2257,7 +2315,8 @@ MonoBehaviour:
     - Once again, thank you.
     names:
     - Wrinkly Old Man
-    portraits: []
+    portraits:
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1001 &963962568
 PrefabInstance:
@@ -2598,9 +2657,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4f84798d01e084db3b4ff2b87cc64a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPhase: 0
+  currentPhase: 4
   wentUp: 0
   buttonsActive: 0
+  confirm: 0
 --- !u!4 &992760047
 Transform:
   m_ObjectHideFlags: 0
@@ -2672,7 +2732,9 @@ MonoBehaviour:
     names:
     - Kind-eyed Girl
     - Kind-eyed Girl
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1113471937
 GameObject:
@@ -2725,7 +2787,9 @@ MonoBehaviour:
     names:
     - Fancy-Looking Woman
     - Fancy-Looking Woman
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1191649015
 GameObject:
@@ -2780,7 +2844,10 @@ MonoBehaviour:
     - Wrinkly Old Man
     - Wrinkly Old Man
     - Wrinkly Old Man
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1206987315
 GameObject:
@@ -3030,7 +3097,8 @@ MonoBehaviour:
     - "Hope it\u2019s not too boring."
     names:
     - Fancy-Looking Woman
-    portraits: []
+    portraits:
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1260458716
 GameObject:
@@ -3092,7 +3160,13 @@ MonoBehaviour:
     - Kind-eyed Girl
     - Kind-eyed Girl
     - Kind-eyed Girl
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1286967900
 GameObject:
@@ -3253,14 +3327,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289959327}
-  m_LocalRotation: {x: 0.7017429, y: -0.70177317, z: -0.08693068, w: -0.0866857}
-  m_LocalPosition: {x: 0.0034765594, y: -0.005357425, z: 0.0106278565}
+  m_LocalRotation: {x: 0.51043636, y: -0.510606, z: -0.48934147, w: -0.48916373}
+  m_LocalPosition: {x: 0.00347, y: -0.005357425, z: -0.00208}
   m_LocalScale: {x: 0.08809772, y: 0.079517424, z: 0.06643017}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2113539698}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 75.897, y: -90, z: -90}
+  m_LocalEulerAnglesHint: {x: -87.563, y: -179.979, z: -90.001}
 --- !u!108 &1289959329
 Light:
   m_ObjectHideFlags: 0
@@ -3270,16 +3344,16 @@ Light:
   m_GameObject: {fileID: 1289959327}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 0
+  m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7254902, g: 0.6764985, b: 0.5568628, a: 1}
-  m_Intensity: 1.67
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 5
   m_Range: 100
   m_SpotAngle: 153.9
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3305,7 +3379,7 @@ Light:
       e33: 1
     m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
+  m_DrawHalo: 1
   m_Flare: {fileID: 0}
   m_RenderMode: 0
   m_CullingMask:
@@ -3374,7 +3448,9 @@ MonoBehaviour:
     names:
     - Elevator Operator
     - Fancy-Looking Woman
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1001 &1504994711
 PrefabInstance:
@@ -3573,7 +3649,19 @@ MonoBehaviour:
         m_CallState: 2
   pass8Up:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 218407667}
+        m_TargetAssemblyTypeName: DialoguePrompt, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   Upbutton: {fileID: 0}
   cam: {fileID: 1510797417}
   progression: {fileID: 992760046}
@@ -3751,7 +3839,15 @@ MonoBehaviour:
     - Kind-eyed Girl
     - Kind-eyed Girl
     - Kind-eyed Girl
-    portraits: []
+    - Kind-eyed Girl
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1551362941
 GameObject:
@@ -3936,6 +4032,58 @@ MonoBehaviour:
     - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
     - {fileID: 1003778316, guid: 428df208eb070c445bba4ca2ea1f0df1, type: 3}
   manager: {fileID: 963962570}
+--- !u!1 &1624920986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624920987}
+  - component: {fileID: 1624920988}
+  m_Layer: 0
+  m_Name: Pass8Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1624920987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624920986}
+  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: 0.04093553, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 416887772}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1624920988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624920986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd42955c62612af499cfaf19edef21c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Are you sure?
+    names:
+    - 
+    portraits:
+    - {fileID: 0}
+  manager: {fileID: 963962570}
 --- !u!1 &1640440912
 GameObject:
   m_ObjectHideFlags: 0
@@ -4021,7 +4169,9 @@ MonoBehaviour:
     names:
     - Kind-eyed Girl
     - Kind-eyed Girl
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1747510789
 GameObject:
@@ -4080,7 +4230,12 @@ MonoBehaviour:
     - Wrinkly Old Man
     - Wrinkly Old Man
     - Wrinkly Old Man
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &1799010143
 GameObject:
@@ -4523,7 +4678,10 @@ MonoBehaviour:
     - Kind-eyed Girl
     - Kind-eyed Girl
     - Kind-eyed Girl
-    portraits: []
+    portraits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   manager: {fileID: 963962570}
 --- !u!1 &2084380561
 GameObject:
@@ -5246,7 +5404,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4937116626354809230, guid: 044e40f1dd2dc1942b0d3b627abc7433, type: 3}
+  - {fileID: 2100000, guid: f4420a0299c12594ea4dfb7c12744ad5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5306,7 +5464,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1542605993523975128, guid: 044e40f1dd2dc1942b0d3b627abc7433, type: 3}
+  - {fileID: 2100000, guid: a649596297d8c334e894212e0599968f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5841,7 +5999,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4937116626354809230, guid: 044e40f1dd2dc1942b0d3b627abc7433, type: 3}
+  - {fileID: 2100000, guid: f4420a0299c12594ea4dfb7c12744ad5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6026,7 +6184,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4937116626354809230, guid: 044e40f1dd2dc1942b0d3b627abc7433, type: 3}
+  - {fileID: 2100000, guid: f4420a0299c12594ea4dfb7c12744ad5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

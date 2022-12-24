@@ -35,6 +35,7 @@ public class MakeItOpenButton : MonoBehaviour
     public UnityEvent Closedoor = new UnityEvent();
     public GameObject Openbutton;
     public progression progression;
+    public AudioSource doorNoise;
     public int door_state = 1;
     // Start is called before the first frame update
     void Start()
@@ -54,14 +55,6 @@ public class MakeItOpenButton : MonoBehaviour
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject && progression.buttonsActive)
             {   
                 DeterminePass();
-                if (door_state == 1)
-                {
-                    Opendoor.Invoke();
-                }
-                else
-                {
-                    Closedoor.Invoke();
-                }
             }
         }
     }
@@ -92,7 +85,10 @@ public class MakeItOpenButton : MonoBehaviour
                 pass8In.Invoke();
             }
             progression.advancePhase();
-            
+            Opendoor.Invoke();
+            progression.buttonsActive = false;
+            StartCoroutine(ShutDoor());
+            doorNoise.Play();
         }
         else if (progression.currentPhase == progression.gameState.Arrived && progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
@@ -121,10 +117,15 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 8) {
                 progression.endGame(true);
+                Opendoor.Invoke();
                 return;
             }
             progression.advancePhase();
             progression.advancePass();
+            Opendoor.Invoke();
+            progression.buttonsActive = false;
+            StartCoroutine(ShutDoor());
+            doorNoise.Play();
         }
         else if (progression.currentPhase == progression.gameState.Arrived && !progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
@@ -153,10 +154,22 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 8) {
                 progression.endGame(false);
+                Opendoor.Invoke();
                 return;
             }
             progression.advancePhase();
             progression.advancePass();
+            Opendoor.Invoke();
+            progression.buttonsActive = false;
+            StartCoroutine(ShutDoor());
+            doorNoise.Play();
         }
+    }
+
+    IEnumerator ShutDoor() {
+        yield return new WaitForSeconds(2.5f);
+        Closedoor.Invoke();
+        progression.buttonsActive = true;
+        doorNoise.Play();
     }
 }

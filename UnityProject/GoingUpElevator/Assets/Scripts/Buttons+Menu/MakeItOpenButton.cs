@@ -31,13 +31,17 @@ public class MakeItOpenButton : MonoBehaviour
     public UnityEvent pass6OutBot = new UnityEvent();
     public UnityEvent pass7OutBot = new UnityEvent();
     public UnityEvent pass8OutBot = new UnityEvent();
+    public UnityEvent Opendoor = new UnityEvent();
+    public UnityEvent Closedoor = new UnityEvent();
     public GameObject Openbutton;
     public Shake camera;
     public progression progression;
+    public int door_state = 1;
     // Start is called before the first frame update
     void Start()
     {
         Openbutton = this.gameObject;
+        door_state = 1;
     }
 
     // Update is called once per frame
@@ -51,6 +55,14 @@ public class MakeItOpenButton : MonoBehaviour
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
             {
                 DeterminePass();
+                if (door_state == 1)
+                {
+                    Opendoor.Invoke();
+                }
+                else
+                {
+                    Closedoor.Invoke();
+                }
             }
         }
     }

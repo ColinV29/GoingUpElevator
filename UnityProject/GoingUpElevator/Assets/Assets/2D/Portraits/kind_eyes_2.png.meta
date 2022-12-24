@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ea38401b0d6ecd4c980c5a82a2610fd
+guid: 39d9da898499a4f4b93e885381056918
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hard_boiled_2_0
+      name: kind_eyes_2_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 208
-        width: 1861
-        height: 2477
+        x: 78
+        y: 133
+        width: 2058
+        height: 2481
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fb49259ea07cd64b951e169ab1ea7da
-      internalID: 1837780104
+      spriteID: f97c5f9229ccce44cab71a7382023fd5
+      internalID: -1890639867
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 58053deb845ff944ca60a473ab898e6b
+    spriteID: abbcc6c10e7e4a947850163b82fbb8a7
     internalID: 0
     vertices: []
     indices: 
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hard_boiled_2_0: 1837780104
+      kind_eyes_2_0: -1890639867
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

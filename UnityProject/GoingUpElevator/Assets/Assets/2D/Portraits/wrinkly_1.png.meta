@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ea38401b0d6ecd4c980c5a82a2610fd
+guid: 8ece09e522fcfc94781392a2fcd58e81
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hard_boiled_2_0
+      name: wrinkly_1_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 208
-        width: 1861
-        height: 2477
+        x: 183
+        y: 64
+        width: 1893
+        height: 2435
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fb49259ea07cd64b951e169ab1ea7da
-      internalID: 1837780104
+      spriteID: 29e10ad5ffe31f54fa11fb69fd25008b
+      internalID: -444974983
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 58053deb845ff944ca60a473ab898e6b
+    spriteID: cd076838380cbff46bbb67a4407da5d5
     internalID: 0
     vertices: []
     indices: 
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hard_boiled_2_0: 1837780104
+      wrinkly_1_0: -444974983
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

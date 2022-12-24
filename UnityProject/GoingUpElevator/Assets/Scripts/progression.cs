@@ -85,7 +85,7 @@ public class progression : MonoBehaviour
         advancePhase();
     }
 
-    protected bool[] goingUps = {true, false, true, false, true, true, false};
+    protected bool[] goingUps = {true, false, true, false, true, true, false, true};
     protected bool nextPass = true;
     public bool wentUp = false;
     public void advanceUps() {
@@ -96,6 +96,10 @@ public class progression : MonoBehaviour
     }
 
     public bool buttonsActive = false;
+    public void turnButtonsOn() {
+        buttonsActive = true;
+        return;
+    }
     public bool confirm = false;
 
     public void endGame(bool Up) {

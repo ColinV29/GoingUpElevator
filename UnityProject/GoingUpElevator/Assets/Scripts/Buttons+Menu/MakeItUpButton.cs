@@ -15,7 +15,6 @@ public class MakeItUpButton : MonoBehaviour
     public UnityEvent pass7Up = new UnityEvent();
     public UnityEvent pass8Up = new UnityEvent();
     public Animator UpbuttonAnim;
-
     public GameObject Upbutton;
     public Shake cam;
     public progression progression;

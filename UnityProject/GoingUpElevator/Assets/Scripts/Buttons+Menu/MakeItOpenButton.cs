@@ -182,7 +182,7 @@ public class MakeItOpenButton : MonoBehaviour
     IEnumerator ShutDoor() {
         yield return new WaitForSeconds(2.5f);
         Closedoor.Invoke();
-        progression.buttonsActive = true;
+        progression.Invoke("turnButtonsOn", 3);
         doorNoise.Play();
     }
 }

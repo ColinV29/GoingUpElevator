@@ -108,12 +108,12 @@ TextureImporter:
       name: Gloomy_1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 869
-        width: 2000
-        height: 2000
+        x: 121
+        y: 96
+        width: 1721
+        height: 2758
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

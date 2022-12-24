@@ -34,7 +34,6 @@ public class MakeItOpenButton : MonoBehaviour
     public UnityEvent Opendoor = new UnityEvent();
     public UnityEvent Closedoor = new UnityEvent();
     public GameObject Openbutton;
-    public Shake camera;
     public progression progression;
     public int door_state = 1;
     // Start is called before the first frame update
@@ -52,8 +51,8 @@ public class MakeItOpenButton : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             //check
-            if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
-            {
+            if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject && progression.buttonsActive)
+            {   
                 DeterminePass();
                 if (door_state == 1)
                 {
@@ -93,8 +92,9 @@ public class MakeItOpenButton : MonoBehaviour
                 pass8In.Invoke();
             }
             progression.advancePhase();
+            
         }
-        else if (progression.currentPhase == progression.gameState.Arrived && progression.currentPosition == progression.position.top) {
+        else if (progression.currentPhase == progression.gameState.Arrived && progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
                 pass1OutTop.Invoke();
             }
@@ -115,13 +115,18 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 7) {
                 pass7OutTop.Invoke();
+                progression.advancePhase();
+                progression.advancePhase();
+                progression.advancePhase();
             }
             if (progression.getCurrentPass() == 8) {
-                pass8OutTop.Invoke();
+                progression.endGame(true);
+                return;
             }
             progression.advancePhase();
+            progression.advancePass();
         }
-        else if (progression.currentPhase == progression.gameState.Arrived && progression.currentPosition == progression.position.bottom) {
+        else if (progression.currentPhase == progression.gameState.Arrived && !progression.wentUp) {
             if (progression.getCurrentPass() == 1) {
                 pass1OutBot.Invoke();
             }
@@ -142,11 +147,16 @@ public class MakeItOpenButton : MonoBehaviour
             }
             if (progression.getCurrentPass() == 7) {
                 pass7OutBot.Invoke();
+                progression.advancePhase();
+                progression.advancePhase();
+                progression.advancePhase();
             }
             if (progression.getCurrentPass() == 8) {
-                pass8OutBot.Invoke();
+                progression.endGame(false);
+                return;
             }
             progression.advancePhase();
+            progression.advancePass();
         }
     }
 }

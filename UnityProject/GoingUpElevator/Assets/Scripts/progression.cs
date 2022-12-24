@@ -48,15 +48,16 @@ public class progression : MonoBehaviour
     }
 
     //establish current passenger and functions
-    private int currentPass;
+    public int currentPass;
     public int getCurrentPass(){
         return currentPass;
     }
     public void advancePass(){
         currentPass++;
+        advanceUps();
         return;
     }
-
+/*
     //establish position
     public enum position {
         bottom,
@@ -64,44 +65,34 @@ public class progression : MonoBehaviour
         top,
     }
     public position currentPosition = position.middle;
+    */
     //transition coroutine
     public IEnumerator GoingUp() {
-        Debug.Log("Going Up from " + currentPosition);
-        
+        wentUp = true;
         yield return new WaitForSeconds(7);
-
-        switch(currentPosition){
-            case position.bottom:
-                currentPosition = position.middle;
-                break;
-            case position.middle:
-                currentPosition = position.top;
-                break;
-            case position.top:
-                Debug.Log("bruh you're in the backrooms");
-                break;
-        }
-        Debug.Log("Arrived at " + currentPosition);
         advancePhase();
     }
 
     public IEnumerator GoingDown() {
-        Debug.Log("Going Down from " + currentPosition);
-        
+        wentUp = false;
         yield return new WaitForSeconds(7);
-
-        switch(currentPosition){
-            case position.bottom:
-                Debug.Log("bruh you're in the backrooms");
-                break;
-            case position.middle:
-                currentPosition = position.bottom;
-                break;
-            case position.top:
-                currentPosition = position.middle;
-                break;
-        }
-        Debug.Log("Arrived at " + currentPosition);
         advancePhase();
+    }
+
+    protected bool[] goingUps = {true, false, true, false, true, true, false};
+    protected bool nextPass = true;
+    public bool wentUp = false;
+    public void advanceUps() {
+        nextPass = goingUps[currentPass - 1];
+    }
+    public bool getNextPass() {
+        return nextPass;
+    }
+
+    public bool buttonsActive = false;
+    public bool confirm = false;
+
+    public void endGame(bool Up) {
+        Application.Quit();
     }
 }

@@ -6,6 +6,6 @@ public class QuitMove : MonoBehaviour
 {
     void Start()
     {
-        transform.LeanMoveLocal(new Vector2(511, -726), 5);
+        transform.LeanMoveLocal(new Vector2(509, -783), 6);
     }
 }

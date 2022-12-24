@@ -7,7 +7,7 @@ public class progression : MonoBehaviour
     //only one progression active
     private static progression _instance;
     public static progression instance;
-    public Animator cameraAnimator;
+    public Animator cameraAnimator, creditsAnimator;
     void Awake()
     {
         if (_instance != null) Destroy (this);
@@ -99,6 +99,8 @@ public class progression : MonoBehaviour
 
     public IEnumerator Credits() {
         cameraAnimator.SetBool("GameOver", true);
+        yield return new WaitForSeconds(10);
+        creditsAnimator.SetBool("GameOver", true);
         yield return new WaitForSeconds(10);
         Debug.Log("game done, go home");
     }

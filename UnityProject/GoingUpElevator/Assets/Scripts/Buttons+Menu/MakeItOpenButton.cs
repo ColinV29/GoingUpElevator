@@ -36,6 +36,7 @@ public class MakeItOpenButton : MonoBehaviour
     public GameObject Openbutton;
     public progression progression;
     public int door_state = 1;
+    public Animator OpenbuttonAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,7 +53,8 @@ public class MakeItOpenButton : MonoBehaviour
         {
             //check
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject && progression.buttonsActive)
-            {   
+            {
+                Openbuttonpushed();
                 DeterminePass();
                 if (door_state == 1)
                 {
@@ -159,4 +161,15 @@ public class MakeItOpenButton : MonoBehaviour
             progression.advancePass();
         }
     }
+    public void Openbuttonpushed()
+    {
+        OpenbuttonAnim.SetBool("IsPuhed", true);
+        Debug.Log("Openbuttonanimated");
+        Invoke("undoanim", 1f);
+    }
+    public void undoanim()
+    {
+        OpenbuttonAnim.SetBool("IsPuhed", false);
+    }
+    
 }

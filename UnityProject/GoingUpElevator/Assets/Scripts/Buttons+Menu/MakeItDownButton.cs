@@ -16,6 +16,7 @@ public class MakeItDownButton : MonoBehaviour
     public GameObject Downbutton;
     public Shake cam;
     public progression progression;
+    public Animator DownButtonAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,7 @@ public class MakeItDownButton : MonoBehaviour
             //check
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject && progression.buttonsActive)
             {
+                Downbuttonpushed();
                 DeterminePass();
             }
         }
@@ -74,4 +76,15 @@ public class MakeItDownButton : MonoBehaviour
         }
     return;
     }
+    public void Downbuttonpushed()
+    {
+        DownButtonAnim.SetBool("IsPushed", true);
+        Debug.Log("Downbuttonanimated");
+        Invoke("undoanim", 1f);
+    }
+    public void undoanim()
+    {
+        DownButtonAnim.SetBool("IsPushed", false);
+    }
+
 }

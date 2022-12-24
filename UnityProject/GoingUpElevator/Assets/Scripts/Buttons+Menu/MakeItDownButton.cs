@@ -62,8 +62,10 @@ public class MakeItDownButton : MonoBehaviour
             if (progression.getCurrentPass() == 7) {
                 pass7Down.Invoke();
             }
-            if (progression.getCurrentPass() == 8) {
+            if (progression.getCurrentPass() == 8 && progression.confirm == false) {
                 pass8Down.Invoke();
+                progression.confirm = true;
+                return;
             }
             progression.advancePhase();
             progression.StartCoroutine(progression.GoingDown());
